@@ -1,0 +1,49 @@
+﻿  Snow.cpp
+c:\users\yang\desktop\opengl-demo\snowparticle\snowparticle\snow.cpp(145): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\yang\desktop\opengl-demo\snowparticle\snowparticle\snow.cpp(147): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\yang\desktop\opengl-demo\snowparticle\snowparticle\snow.cpp(165): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+main.obj : error LNK2019: 无法解析的外部符号 __imp__glClear@4，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp__glClearColor@16，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp__glDepthFunc@4，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp__glEnable@4，该符号在函数 _main 中被引用
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp__glEnable@4
+main.obj : error LNK2019: 无法解析的外部符号 __imp__glGetError@0，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp__glViewport@16，该符号在函数 _main 中被引用
+main.obj : error LNK2019: 无法解析的外部符号 __imp__glewInit@0，该符号在函数 _main 中被引用
+main.obj : error LNK2001: 无法解析的外部符号 __imp__glewExperimental
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glBindTexture@8，该符号在函数 "private: void __thiscall Snow::Snow::InitRandomTexture(unsigned int)" (?InitRandomTexture@Snow@1@AAEXI@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glBlendFunc@8，该符号在函数 "private: void __thiscall Snow::Snow::RenderParticles(struct glm::tmat4x4<float,0> &,struct glm::tmat4x4<float,0> &,struct glm::tmat4x4<float,0> &)" (?RenderParticles@Snow@1@AAEXAAU?$tmat4x4@M$0A@@glm@@00@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glDeleteTextures@8，该符号在函数 "public: __thiscall Texture::~Texture(void)" (??1Texture@@QAE@XZ) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glDisable@4，该符号在函数 "private: void __thiscall Snow::Snow::UpdateParticles(float)" (?UpdateParticles@Snow@1@AAEXM@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glDrawArrays@12，该符号在函数 "private: void __thiscall Snow::Snow::UpdateParticles(float)" (?UpdateParticles@Snow@1@AAEXM@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glGenTextures@8，该符号在函数 "private: void __thiscall Snow::Snow::InitRandomTexture(unsigned int)" (?InitRandomTexture@Snow@1@AAEXI@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glTexImage1D@32，该符号在函数 "private: void __thiscall Snow::Snow::InitRandomTexture(unsigned int)" (?InitRandomTexture@Snow@1@AAEXI@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glTexImage2D@36，该符号在函数 "public: void __thiscall Texture::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (?loadTexture@Texture@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glTexParameterf@12，该符号在函数 "private: void __thiscall Snow::Snow::InitRandomTexture(unsigned int)" (?InitRandomTexture@Snow@1@AAEXI@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 __imp__glTexParameteri@12，该符号在函数 "public: void __thiscall Texture::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (?loadTexture@Texture@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Shader::Shader(char const *,char const *)" (??0Shader@@QAE@PBD0@Z)，该符号在函数 "public: __thiscall Snow::Snow::Snow(void)" (??0Snow@0@QAE@XZ) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 "public: __thiscall Shader::Shader(char const *,char const *,char const *,char const * * const,int)" (??0Shader@@QAE@PBD00QAPBDH@Z)，该符号在函数 "public: __thiscall Snow::Snow::Snow(void)" (??0Snow@0@QAE@XZ) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall Shader::use(void)" (?use@Shader@@QAEXXZ)，该符号在函数 "public: __thiscall Snow::Snow::Snow(void)" (??0Snow@0@QAE@XZ) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall Shader::setInt(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)const " (?setInt@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)，该符号在函数 "public: __thiscall Snow::Snow::Snow(void)" (??0Snow@0@QAE@XZ) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall Shader::setFloat(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,float)const " (?setFloat@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@M@Z)，该符号在函数 "private: bool __thiscall Snow::Snow::InitSnow(void)" (?InitSnow@Snow@1@AAE_NXZ) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall Shader::setMat4(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,struct glm::tmat4x4<float,0>)const " (?setMat4@Shader@@QBEXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$tmat4x4@M$0A@@glm@@@Z)，该符号在函数 "private: void __thiscall Snow::Snow::RenderParticles(struct glm::tmat4x4<float,0> &,struct glm::tmat4x4<float,0> &,struct glm::tmat4x4<float,0> &)" (?RenderParticles@Snow@1@AAEXAAU?$tmat4x4@M$0A@@glm@@00@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 _stbi_load，该符号在函数 "public: void __thiscall Texture::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (?loadTexture@Texture@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z) 中被引用
+Snow.obj : error LNK2019: 无法解析的外部符号 _stbi_image_free，该符号在函数 "public: void __thiscall Texture::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool)" (?loadTexture@Texture@@QAEXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N@Z) 中被引用
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewActiveTexture
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindBuffer
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewBufferData
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenBuffers
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewDisableVertexAttribArray
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewEnableVertexAttribArray
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewUseProgram
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewVertexAttribPointer
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewBeginTransformFeedback
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewEndTransformFeedback
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenerateMipmap
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindTransformFeedback
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewDrawTransformFeedback
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenTransformFeedbacks
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindBufferBase
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewBindVertexArray
+Snow.obj : error LNK2001: 无法解析的外部符号 __imp____glewGenVertexArrays
+C:\Users\Yang\Desktop\OpenGL-Demo\SnowParticle\Debug\SnowParticle.exe : fatal error LNK1120: 43 个无法解析的外部命令

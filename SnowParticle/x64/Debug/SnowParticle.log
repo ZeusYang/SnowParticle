@@ -1,0 +1,9 @@
+﻿  Snow.cpp
+c:\users\yang\desktop\opengl-demo\snowparticle\snowparticle\snow.cpp(150): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\yang\desktop\opengl-demo\snowparticle\snowparticle\snow.cpp(152): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\yang\desktop\opengl-demo\snowparticle\snowparticle\snow.cpp(170): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码...
+  正在跳过...(未检测到相关更改)
+  main.cpp
+  SnowParticle.vcxproj -> C:\Users\Yang\Desktop\OpenGL-Demo\SnowParticle\x64\Debug\SnowParticle.exe
+  SnowParticle.vcxproj -> C:\Users\Yang\Desktop\OpenGL-Demo\SnowParticle\x64\Debug\SnowParticle.pdb (Full PDB)
